@@ -1,0 +1,13 @@
+site_name: Quantastix Documentation
+site_url: https://yourusername.github.io/quantastix
+theme:
+  name: material
+  extra_css:
+    - https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css
+plugins:
+  - search
+  # Add additional plugins here if needed, for example:
+  # - bootstrap  (if you have a dedicated Bootstrap plugin installed)
+nav:
+  - Home: index.md
+  - About: about.md

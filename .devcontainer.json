@@ -1,0 +1,7 @@
+{
+  "name": "Quantastix MkDocs Environment",
+  "image": "mcr.microsoft.com/vscode/devcontainers/python:3",
+  "postCreateCommand": "pip install mkdocs mkdocs-material",
+  "forwardPorts": [8000],
+  "workspaceFolder": "/workspace"
+}
